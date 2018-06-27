@@ -88,10 +88,15 @@ a {
   position: static;
   text-align: left; }
 
+.fzlc-swiper .swiper-pagination {
+  text-align: center;
+  padding-bottom: 0.8533333333rem; }
+
 .fzlc-swiper .swiper-pagination-bullet {
   width: 1.856rem !important;
   height: 0.8106666667rem !important;
-  color: #666666 !important; }
+  color: #666666 !important;
+  background: transparent !important; }
 
 .news-swiper .swiper-pagination-bullet, .match-swiper .swiper-pagination-bullet, .talent-swiper .swiper-pagination-bullet, .member-swiper .swiper-pagination-bullet, .fzlc-swiper .swiper-pagination-bullet {
   outline: none;
@@ -106,7 +111,7 @@ a {
   opacity: 1; }
 
 .news-swiper .swiper-pagination-bullet-active, .match-swiper .swiper-pagination-bullet-active, .talent-swiper .swiper-pagination-bullet-active, .member-swiper .swiper-pagination-bullet-active, .fzlc-swiper .swiper-pagination-bullet-active {
-  background: #2fbbe3;
+  background: #2fbbe3 !important;
   color: #ffffff !important; }
 
 .news-top-left {
@@ -387,7 +392,7 @@ a {
   white-space: nowrap;
   overflow-x: auto;
   width: 16rem;
-  box-shadow: 0px 4px 10px #8C8C8C;
+  box-shadow: 0px 4px 10px #cacaca;
   overflow-y: hidden; }
 
 .sm-mid-nav::-webkit-scrollbar {
@@ -407,6 +412,508 @@ a {
   color: #2fbbe3;
   border-bottom: 0.1066666667rem solid #2fbbe3; }
 
+.fzlc-swiper {
+  width: 15.1466666667rem;
+  padding: 0 0.4266666667rem;
+  background: url("../images/fzlcbg.png") center center/cover; }
+
+.fzlc-swiper .swiper-slide .fzlc-list {
+  /* height:px2rem(955);
+   overflow-y: auto;*/ }
+
+.fzlc-introduction {
+  font-size: 0.4693333333rem;
+  color: #333333;
+  float: left;
+  width: 5.3333333333rem; }
+
+.fzlc-date {
+  font-size: 0.4693333333rem;
+  color: #333333;
+  float: left;
+  width: 4.6933333333rem;
+  position: relative;
+  bottom: 0.256rem;
+  margin-left: 0.64rem; }
+
+.fzlc-swiper .swiper-slide .fzlc-list li {
+  position: relative;
+  padding-top: 0.256rem;
+  width: 12.16rem;
+  margin: auto;
+  padding-bottom: 0.896rem; }
+
+.fzlc-date span {
+  margin-left: 1.0666666667rem;
+  display: inline-block;
+  width: 1.92rem;
+  line-height: 0.768rem;
+  height: 0.768rem;
+  font-weight: bold;
+  border: 1px dashed #333333;
+  border-radius: 5px;
+  text-align: center;
+  position: relative; }
+
+.fzlc-date span:before {
+  content: " ";
+  border-bottom: 1px dashed #585859;
+  width: 0.4693333333rem;
+  position: absolute;
+  left: -0.5546666667rem;
+  top: 0.384rem; }
+
+.fzlc-date span:after {
+  content: " ";
+  width: 0.192rem;
+  height: 0.2346666667rem;
+  position: absolute;
+  left: -0.7893333333rem;
+  top: 0.2773333333rem;
+  background: url("../images/date-left.png") 0 0/0.192rem 0.2346666667rem no-repeat; }
+
+.fzlc-line-spot {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 100px;
+  background: #000000;
+  position: absolute;
+  top: 0.256rem;
+  left: 5.9093333333rem; }
+
+.fzlc-line-dotted {
+  position: absolute;
+  top: 0.576rem;
+  left: 6.0586666667rem;
+  height: 100%;
+  border-right: 1px dashed #333333; }
+
+.date-left .fzlc-date span:before {
+  left: 2.048rem; }
+
+.date-left .fzlc-date span:after {
+  left: 2.432rem;
+  background-image: url(../images/data-right.png); }
+
+.date-left .fzlc-date {
+  text-align: right;
+  margin-left: 0.512rem; }
+
+.date-left .fzlc-introduction {
+  float: right; }
+
+.fzlc-swiper-ctrl {
+  position: relative;
+  height: 0.896rem;
+  top: 0.896rem; }
+
+.fzlc-swiper-ctrl .swiper-button-next, .fzlc-swiper-ctrl .swiper-button-prev {
+  top: 0;
+  margin-top: 0; }
+
+.fzlc-swiper-ctrl .swiper-button-prev, .fzlc-swiper-ctrl .swiper-container-rtl .swiper-button-next {
+  background-image: url(../images/ctrl-left.png); }
+
+.fzlc-swiper-ctrl .swiper-button-next, .fzlc-swiper-ctrl .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../images/ctrl-right.png); }
+
+.fzlc-swiper-ctrl .swiper-button-next, .fzlc-swiper-ctrl .swiper-button-prev {
+  width: 0.896rem;
+  height: 0.896rem;
+  background-size: 0.896rem 0.896rem; }
+
 /*首页_关于我们-发展历程结束*/
+/*首页_关于我们-加入我们开始*/
+.jrwm-lists li {
+  background: none; }
+
+.jrwm-lists li span {
+  float: right; }
+
+.yghd-lists {
+  width: 15.1466666667rem;
+  margin: auto;
+  padding-top: 0.64rem; }
+
+.yghd-lists li {
+  margin-right: 0.64rem;
+  width: 7.04rem;
+  float: left;
+  margin-bottom: 0.64rem; }
+
+.yghd-lists li:nth-child(2n) {
+  margin-right: 0; }
+
+.yghd-lists-top {
+  width: 7.04rem;
+  height: 4.6933333333rem;
+  position: relative;
+  overflow: hidden; }
+
+.yghd-lists-top img {
+  width: 7.04rem;
+  height: 4.6933333333rem; }
+
+.yghd-lists-bottom {
+  width: 7.04rem;
+  font-size: 0.4693333333rem;
+  color: #666666;
+  line-height: 0.8106666667rem;
+  padding-top: 0.4266666667rem; }
+
+.yghd-hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.5);
+  height: 1.28rem;
+  width: 7.04rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 0.5546666667rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.28rem; }
+
+.sm-yghd {
+  padding-top: 0.64rem;
+  background: #eeeff1; }
+
+.sm-yghd-title {
+  width: 14.72rem;
+  margin: auto; }
+
+.gbhj-lists-bottom {
+  height: 1.28rem;
+  line-height: 1.28rem;
+  color: #333333;
+  background: #ffffff;
+  font-size: 0.5546666667rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.gbhj-lists li {
+  box-shadow: 0px 4px 10px #bbbbbb; }
+
+/*首页_关于我们-加入我们结束*/
+/*首页_关于我们-联系我们开始*/
+.lxwm-map {
+  width: 15.1466666667rem;
+  margin: 0.8533333333rem auto;
+  border: 1px solid #999999;
+  padding: 0.32rem 0; }
+
+#sm-map {
+  width: 14.5066666667rem;
+  margin: auto;
+  height: 6.272rem; }
+
+.lxwm-title {
+  font-size: 0.5546666667rem;
+  font-weight: bold;
+  color: #333333;
+  width: 11.9466666667rem;
+  margin: auto;
+  padding-bottom: 0.4266666667rem; }
+
+.lxwm-lists {
+  width: 11.9466666667rem;
+  margin: auto; }
+
+.lxwm-lists li {
+  font-size: 0.4693333333rem;
+  color: #666666;
+  line-height: 0.768rem; }
+
+.icon-1 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon1.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.icon-2 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon2.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.icon-3 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon3.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.icon-4 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon4.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.icon-5 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon5.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.icon-6 {
+  width: 0.4266666667rem;
+  height: 0.4906666667rem;
+  margin: 0 0.3413333333rem 0 0;
+  position: relative;
+  top: 0.064rem;
+  display: inline-block;
+  background: url("../images/icon6.png") 0 0/0.4266666667rem 0.4906666667rem no-repeat; }
+
+.lxwm-form {
+  width: 11.9466666667rem;
+  margin: 0.256rem auto; }
+
+.input-group {
+  border-radius: 5px;
+  position: relative;
+  width: 10.7946666667rem;
+  height: 1.4506666667rem;
+  border: 1px solid #666666;
+  margin-bottom: 0.4266666667rem; }
+
+.input-group label, .text-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.92rem;
+  height: 1.4506666667rem;
+  line-height: 1.4506666667rem;
+  font-size: 0.4266666667rem;
+  font-weight: bold;
+  color: #666666;
+  text-align: center; }
+
+.input-group input {
+  display: block;
+  font-size: 0.4266666667rem;
+  color: #666666;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding-left: 1.92rem;
+  width: 8.8746666667rem;
+  height: 1.4506666667rem; }
+
+.text-group {
+  border-radius: 5px;
+  position: relative;
+  width: 10.7946666667rem;
+  height: 6.9333333333rem;
+  border: 1px solid #666666;
+  margin-bottom: 0.4266666667rem; }
+
+.text-group textarea {
+  display: block;
+  font-size: 0.4266666667rem;
+  color: #666666;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 8.4053333333rem;
+  height: 5.9946666667rem;
+  padding: 0.4693333333rem 0.4693333333rem 0.4693333333rem 1.92rem; }
+
+.lxwm-form-btn {
+  width: 10.7946666667rem;
+  height: 1.4933333333rem;
+  display: block;
+  background: #2fbbe3;
+  color: #ffffff;
+  font-size: 0.64rem;
+  font-weight: bold;
+  line-height: 1.4933333333rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 1.2373333333rem; }
+
+/*首页_关于我们-联系我们结束*/
+/*首页_关于我们-协会简介开始*/
+.xhjj {
+  position: relative;
+  width: 15.1466666667rem;
+  height: 5.3333333333rem;
+  margin: 0.5973333333rem auto 0;
+  background: url("../images/xhjj1.png") 0 0/15.1466666667rem 5.3333333333rem no-repeat; }
+
+.xhjj-font {
+  position: absolute;
+  font-size: 0.4266666667rem;
+  color: #b0afb0;
+  top: 1.8133333333rem; }
+
+.xhjj-font label {
+  font-size: 0.384rem;
+  color: #ffffff; }
+
+.xhjj-font span {
+  font-size: 0.768rem;
+  color: #ffffff;
+  font-weight: bold; }
+
+.xhjj-1 {
+  left: 0.4693333333rem; }
+
+.xhjj-2 {
+  left: 4.0533333333rem; }
+
+.xhjj-3 {
+  left: 6.8266666667rem; }
+
+.xhjj-4 {
+  left: 9.856rem; }
+
+.xhjj-5 {
+  left: 12.8rem; }
+
+.xhjj-contnet {
+  width: 15.1466666667rem;
+  height: 8.4053333333rem;
+  margin: auto;
+  position: relative;
+  bottom: 1.0666666667rem;
+  background: url("../images/xhjj2.png") 0 0/15.1466666667rem 8.4053333333rem no-repeat; }
+
+.xhjj-contnet-inside {
+  text-indent: 2em;
+  position: absolute;
+  bottom: 0.5333333333rem;
+  right: 0.5333333333rem;
+  width: 7.8933333333rem;
+  font-size: 0.4266666667rem;
+  color: #333333;
+  line-height: 0.7466666667rem; }
+
+.xhjj-contnet-rticle {
+  width: 15.1466666667rem;
+  margin: auto; }
+
+.xhjj-contnet-rticle img {
+  max-width: 15.1466666667rem; }
+
+/*首页_关于我们-协会简介结束*/
+/*首页_关于我们-专家委员会开始*/
+.zjwyh-lists {
+  width: 15.1466666667rem;
+  margin: 0.6826666667rem auto; }
+
+.zjwyh-lists li {
+  float: left;
+  width: 7.36rem;
+  box-shadow: 0px 4px 10px #bebebe;
+  margin-right: 0.4266666667rem;
+  margin-bottom: 0.4266666667rem; }
+
+.zjwyh-lists li:nth-child(2n) {
+  margin-right: 0; }
+
+.zjwyh-lists li img {
+  display: block;
+  height: 5.0773333333rem;
+  width: 7.36rem; }
+
+.zj-name {
+  margin-top: 0.2986666667rem;
+  padding-left: 0.4266666667rem;
+  border-left: 0.128rem solid #2fbbe3;
+  font-size: 0.64rem;
+  font-weight: bold;
+  color: #030303; }
+
+.zj-name span, .zj-summary {
+  font-size: 0.512rem;
+  font-weight: normal;
+  color: #333333;
+  padding-left: 0.4266666667rem; }
+
+.zj-summary {
+  padding-top: 0.4266666667rem;
+  line-height: 0.8106666667rem; }
+
+.zj-btn {
+  display: block;
+  width: 3.4773333333rem;
+  height: 1.2373333333rem;
+  line-height: 1.2373333333rem;
+  font-size: 0.512rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #2fbbe3;
+  color: #2fbbe3;
+  margin: 0.6826666667rem auto; }
+
+/*首页_关于我们-专家委员会结束*/
+/*首页_会员服务-会员企业风采开始*/
+.hyfc-mid-nav a {
+  width: 8rem; }
+
+.hy-name {
+  border-left: none;
+  text-align: center; }
+
+/*首页_会员服务-会员企业风采结束*/
+/*首页_会员服务-会员企业风采-详细内容开始*/
+.hyfc-article-title {
+  padding-top: 0.64rem;
+  width: 15.1466666667rem;
+  height: 2.1333333333rem;
+  margin: auto; }
+
+.hyfc-article-title {
+  font-size: 0.64rem;
+  font-weight: bold;
+  color: #333333; }
+
+.hyfc-article-summary {
+  padding-bottom: 0.256rem;
+  padding-top: 0.1066666667rem;
+  border-bottom: 1px solid #dcdddd; }
+
+.hyfc-article-summary span {
+  font-size: 0.512rem;
+  color: #333333;
+  width: 9.6rem;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal; }
+
+.hyfc-article-summary label {
+  display: block;
+  font-size: 0.4693333333rem;
+  color: #666666;
+  float: right;
+  font-weight: normal; }
+
+/*首页_会员服务-会员企业风采-详细内容结束*/
+/*首页_会员中心开始*/
+.hyzx-mid-nav a {
+  width: 4rem; }
+
+/*首页_会员中心开始*/
 
 /*# sourceMappingURL=smMobile.css.map */
