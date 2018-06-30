@@ -1111,17 +1111,23 @@ a{
 }
 /*导航样式结束*/
 
-/*正在加载开始*/
-.loading,.nomore{
-  display: none;
-  line-height: px2rem(40);
+/*分页开始*/
+.pagination{
+  padding: px2rem(12) 0 px2rem(40) 0;
   text-align: center;
-  font-size: px2rem(16);
+}
+.pagination li{
+ display: inline;
+  padding: px2rem(6) px2rem(12);
+  font-size: px2rem(20);
   color: #999999;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  margin: px2rem(5);
 }
-.loading img{
-  display: block;
-  margin: auto;
-  width:px2rem(100);
+.pagination li.on{
+  color: #ffffff;
+  background: #2fbbe3;
+  border-color: #2fbbe3;
 }
-/*正在加载结束*/
+/*分页结束*/

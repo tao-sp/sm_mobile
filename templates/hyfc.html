@@ -94,21 +94,12 @@
     </li>
 </ul>
 
+<!--分页开始-->
+<ul class="pagination">
+    <li> < 上一页</li><li class="on">1</li><li>2</li><li>3</li><li>4</li><li> 下一页 ></li>
+</ul>
+<!--分页结束-->
 
-<!--备注：滚动条到底部时加载下一页内容-->
-
-<!--正在加载开始-->
-<div class="loading">
-        <img src="../assets/images/loading.gif"/>
-        正在加载中...
-</div>
-<!--正在加载结束-->
-
-<div class="nomore">
-    暂无更多内容
-</div>
-
-<!--内容开始-->
 
 <!--底部开始-->
 <div class="sm-footer">
@@ -117,37 +108,6 @@
     粤ICP备16047647号-1
 </div>
 <!--底部结束-->
-<script type="text/javascript">
-    window.addEventListener('scroll', function () {
-        if(window.pageYOffset + window.innerHeight >= document.documentElement.scrollHeight){
-            loadMore();
-        }
-    })
-    function loadMore() {
-      loadingShow();
-      $(".zjwyh-lists").append(" <li>\n" +
-          "        <img src=\"../assets/images/zj1.png\"/>\n" +
-          "        <div class=\"zj-name hy-name\" >\n" +
-          "            阿里巴巴\n" +
-          "        </div>\n" +
-          "        <div class=\"zj-summary\">\n" +
-          "            主要从事农业经济与管理农业 科技发展、研究工作。\n" +
-          "        </div>\n" +
-          "        <a class=\"zj-btn\">了解详情 > </a>\n" +
-          "    </li>\n" +
-          "    <li>\n" +
-          "        <img src=\"../assets/images/zj1.png\"/>\n" +
-          "        <div class=\"zj-name hy-name\">\n" +
-          "            阿里巴巴\n" +
-          "        </div>\n" +
-          "        <div class=\"zj-summary\">\n" +
-          "            主要从事农业经济与管理农业 科技发展、研究工作。\n" +
-          "        </div>\n" +
-          "        <a class=\"zj-btn\">了解详情 > </a>\n" +
-          "    </li>");
-      loadingHide();
-    }
-</script>
 <script type="text/javascript">
     // 百度地图API功能
     var map = new BMap.Map("sm-map");
