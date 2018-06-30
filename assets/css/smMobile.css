@@ -1090,5 +1090,19 @@ a {
   width: 4.4373333333rem; }
 
 /*导航样式结束*/
+/*正在加载开始*/
+.loading, .nomore {
+  display: none;
+  line-height: 0.8533333333rem;
+  text-align: center;
+  font-size: 0.3413333333rem;
+  color: #999999; }
+
+.loading img {
+  display: block;
+  margin: auto;
+  width: 2.1333333333rem; }
+
+/*正在加载结束*/
 
 /*# sourceMappingURL=smMobile.css.map */

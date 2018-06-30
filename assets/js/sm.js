@@ -10,3 +10,16 @@ $(function () {
         $(".right-nav-content").animate({right:"-100%"});
     })
 })
+
+function loadingShow() {
+    $(".loading").fadeIn();
+}
+function loadingHide() {
+    $(".loading").fadeOut();
+}
+function nomoreShow() {
+    $(".nomore").fadeIn();
+}
+function nomoreHide() {
+    $(".nomore").fadeOut();
+}

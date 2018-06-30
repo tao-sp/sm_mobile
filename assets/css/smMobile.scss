@@ -1110,3 +1110,18 @@ a{
   width:px2rem(208);
 }
 /*导航样式结束*/
+
+/*正在加载开始*/
+.loading,.nomore{
+  display: none;
+  line-height: px2rem(40);
+  text-align: center;
+  font-size: px2rem(16);
+  color: #999999;
+}
+.loading img{
+  display: block;
+  margin: auto;
+  width:px2rem(100);
+}
+/*正在加载结束*/
