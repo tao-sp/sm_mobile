@@ -33,7 +33,11 @@ a{
 
 /*首页开始*/
 .sm-header{
-  position: relative;
+  position: fixed;
+  top:0;
+  left: 50%;
+  margin-left: px2rem(-375);
+  z-index: 999999;
   font-size: px2rem(26);
   color: #ffffff;
   font-weight: lighter;
@@ -218,7 +222,7 @@ a{
   float: left;
 }
 .list-left img{
-  wdith:px2rem(210);
+  width:px2rem(210);
 }
 .product-list li{
   margin-top: px2rem(30);
@@ -929,3 +933,180 @@ a{
   width:px2rem(187.5);
 }
 /*首页_会员中心开始*/
+
+/*首页_品牌推介开始*/
+.pptj-lists li{
+  padding: px2rem(30) 0;
+  border-bottom: 1px solid #dcdddd;
+}
+.pptj-lists li:last-child{
+  border-bottom:none;
+}
+.pptj-lists{
+  padding-bottom: px2rem(50);
+  padding-top: px2rem(20);
+  width:px2rem(710);
+  margin: auto;
+}
+.pptj-left{
+  margin-right: px2rem(28);
+  width:px2rem(331);
+  height:px2rem(158);
+  overflow: hidden;
+  float: left;
+}
+.pptj-left img{
+  width:px2rem(331);
+  height:px2rem(158);
+}
+.pptj-right{
+  float: left;
+  width:px2rem(350);
+  height:px2rem(158);
+}
+.pptj-right-title{
+  padding-bottom: px2rem(10);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size:px2rem(30);
+  color: #333333;
+}
+.pptj-right-summary{
+  font-size:px2rem(24);
+  color: #666666;
+  line-height: px2rem(36);
+  padding-bottom: px2rem(10);
+  height:px2rem(68);
+  overflow: hidden;
+}
+.pptj-right-date{
+  font-size:px2rem(22);
+  color: #666666;
+}
+.pptj-right-date span{
+  float: right;
+}
+/*首页_品牌推介结束*/
+
+/*首页_人才服务开始*/
+.rcfw-mid-nav a {
+  width: px2rem(250);
+}
+/*首页_人才服务结束*/
+
+/*首页_专业委员会开始*/
+.zywyh-lists{
+  width:px2rem(710);
+  padding: px2rem(30) 0;
+  margin: auto;
+}
+.zywyh-lists li img{
+  width:px2rem(710);
+  display: block;
+}
+.zywyh-lists-title{
+  padding-top: px2rem(20);
+  line-height: px2rem(46);
+  font-weight: bold;
+  font-size: px2rem(30);
+  color: #333333;
+}
+.zywyh-lists-title span{
+  font-weight: normal;
+  font-size: px2rem(26);
+  color: #666666;
+}
+.zywyh-lists-a{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  color: #2fbbe3;
+  font-size: px2rem(24);
+  line-height: px2rem(46);
+  padding-bottom: px2rem(20);
+}
+/*首页_专业委员会结束*/
+
+
+/*导航样式开始*/
+.right-nav-content{
+  width:px2rem(400);
+  background: rgba(0,0,0,0.9);
+  height: 100%;
+  position: fixed;
+  top:0;
+  right:-100%;
+  z-index: 999999;
+  overflow: auto;
+}
+.right-nav-title{
+  padding-left: px2rem(60);
+  width:px2rem(340);
+  height:px2rem(88);
+  line-height: px2rem(88);
+  background: #2fbbe3;
+  font-size: px2rem(36);
+  color: #ffffff;
+}
+
+.right-nav-title span{
+  padding-left: px2rem(8);
+  font-size: px2rem(20);
+}
+.right-nav-close{
+  position: absolute;
+  right:px2rem(20);
+  top:px2rem(26);
+  width: px2rem(35);
+  height:px2rem(35);
+  background: url("../images/right_nav_close.png") 0 0 /px2rem(35) px2rem(35) no-repeat;
+}
+.right-nav-lists{
+  padding-left: px2rem(60);
+}
+.right-nav-lists > li{
+  font-size: px2rem(32);
+  color: #ffffff;
+  border-bottom: 1px solid #595a5a;
+  line-height: px2rem(100);
+}
+.right-nav-lists > li:last-child{
+  border-bottom: none;
+}
+.right-nav-lists > li > ul.on{
+   display: block;
+}
+.right-nav-lists > li > ul{
+  display: none;
+  padding-left: px2rem(30);
+}
+.right-nav-lists > li > ul > li{
+  position: relative;
+  height:px2rem(70);
+  line-height: px2rem(70);
+  color: #cfcfcf;
+  font-size: px2rem(30);
+}
+.right-nav-lists > li > ul > li:after{
+  content: " ";
+  width:px2rem(10);
+  height:px2rem(12);
+  background: url("../images/li_icon.png") 0 0/px2rem(10) px2rem(12) no-repeat;
+  position: absolute;
+  right:px2rem(20);
+  top:px2rem(31);
+}
+.qrcode{
+  width:px2rem(208);
+  font-size: px2rem(28);
+  color: #ffffff;
+  text-align: center;
+  margin:px2rem(20) auto;
+  line-height: px2rem(48);
+}
+.qrcode img{
+  width:px2rem(208);
+}
+/*导航样式结束*/

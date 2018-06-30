@@ -31,7 +31,11 @@ a {
 
 /*首页开始*/
 .sm-header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -8rem;
+  z-index: 999999;
   font-size: 0.5546666667rem;
   color: #ffffff;
   font-weight: lighter;
@@ -215,7 +219,7 @@ a {
   float: left; }
 
 .list-left img {
-  wdith: 4.48rem; }
+  width: 4.48rem; }
 
 .product-list li {
   margin-top: 0.64rem; }
@@ -915,5 +919,176 @@ a {
   width: 4rem; }
 
 /*首页_会员中心开始*/
+/*首页_品牌推介开始*/
+.pptj-lists li {
+  padding: 0.64rem 0;
+  border-bottom: 1px solid #dcdddd; }
+
+.pptj-lists li:last-child {
+  border-bottom: none; }
+
+.pptj-lists {
+  padding-bottom: 1.0666666667rem;
+  padding-top: 0.4266666667rem;
+  width: 15.1466666667rem;
+  margin: auto; }
+
+.pptj-left {
+  margin-right: 0.5973333333rem;
+  width: 7.0613333333rem;
+  height: 3.3706666667rem;
+  overflow: hidden;
+  float: left; }
+
+.pptj-left img {
+  width: 7.0613333333rem;
+  height: 3.3706666667rem; }
+
+.pptj-right {
+  float: left;
+  width: 7.4666666667rem;
+  height: 3.3706666667rem; }
+
+.pptj-right-title {
+  padding-bottom: 0.2133333333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.64rem;
+  color: #333333; }
+
+.pptj-right-summary {
+  font-size: 0.512rem;
+  color: #666666;
+  line-height: 0.768rem;
+  padding-bottom: 0.2133333333rem;
+  height: 1.4506666667rem;
+  overflow: hidden; }
+
+.pptj-right-date {
+  font-size: 0.4693333333rem;
+  color: #666666; }
+
+.pptj-right-date span {
+  float: right; }
+
+/*首页_品牌推介结束*/
+/*首页_人才服务开始*/
+.rcfw-mid-nav a {
+  width: 5.3333333333rem; }
+
+/*首页_人才服务结束*/
+/*首页_专业委员会开始*/
+.zywyh-lists {
+  width: 15.1466666667rem;
+  padding: 0.64rem 0;
+  margin: auto; }
+
+.zywyh-lists li img {
+  width: 15.1466666667rem;
+  display: block; }
+
+.zywyh-lists-title {
+  padding-top: 0.4266666667rem;
+  line-height: 0.9813333333rem;
+  font-weight: bold;
+  font-size: 0.64rem;
+  color: #333333; }
+
+.zywyh-lists-title span {
+  font-weight: normal;
+  font-size: 0.5546666667rem;
+  color: #666666; }
+
+.zywyh-lists-a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #2fbbe3;
+  font-size: 0.512rem;
+  line-height: 0.9813333333rem;
+  padding-bottom: 0.4266666667rem; }
+
+/*首页_专业委员会结束*/
+/*导航样式开始*/
+.right-nav-content {
+  width: 8.5333333333rem;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 999999;
+  overflow: auto; }
+
+.right-nav-title {
+  padding-left: 1.28rem;
+  width: 7.2533333333rem;
+  height: 1.8773333333rem;
+  line-height: 1.8773333333rem;
+  background: #2fbbe3;
+  font-size: 0.768rem;
+  color: #ffffff; }
+
+.right-nav-title span {
+  padding-left: 0.1706666667rem;
+  font-size: 0.4266666667rem; }
+
+.right-nav-close {
+  position: absolute;
+  right: 0.4266666667rem;
+  top: 0.5546666667rem;
+  width: 0.7466666667rem;
+  height: 0.7466666667rem;
+  background: url("../images/right_nav_close.png") 0 0/0.7466666667rem 0.7466666667rem no-repeat; }
+
+.right-nav-lists {
+  padding-left: 1.28rem; }
+
+.right-nav-lists > li {
+  font-size: 0.6826666667rem;
+  color: #ffffff;
+  border-bottom: 1px solid #595a5a;
+  line-height: 2.1333333333rem; }
+
+.right-nav-lists > li:last-child {
+  border-bottom: none; }
+
+.right-nav-lists > li > ul.on {
+  display: block; }
+
+.right-nav-lists > li > ul {
+  display: none;
+  padding-left: 0.64rem; }
+
+.right-nav-lists > li > ul > li {
+  position: relative;
+  height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  color: #cfcfcf;
+  font-size: 0.64rem; }
+
+.right-nav-lists > li > ul > li:after {
+  content: " ";
+  width: 0.2133333333rem;
+  height: 0.256rem;
+  background: url("../images/li_icon.png") 0 0/0.2133333333rem 0.256rem no-repeat;
+  position: absolute;
+  right: 0.4266666667rem;
+  top: 0.6613333333rem; }
+
+.qrcode {
+  width: 4.4373333333rem;
+  font-size: 0.5973333333rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.4266666667rem auto;
+  line-height: 1.024rem; }
+
+.qrcode img {
+  width: 4.4373333333rem; }
+
+/*导航样式结束*/
 
 /*# sourceMappingURL=smMobile.css.map */
